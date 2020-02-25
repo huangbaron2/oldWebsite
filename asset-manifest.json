@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/personalreact/static/css/main.9e9505ce.chunk.css",
+    "main.js": "/personalreact/static/js/main.4c0a1119.chunk.js",
+    "main.js.map": "/personalreact/static/js/main.4c0a1119.chunk.js.map",
+    "runtime-main.js": "/personalreact/static/js/runtime-main.d1067ad7.js",
+    "runtime-main.js.map": "/personalreact/static/js/runtime-main.d1067ad7.js.map",
+    "static/js/2.bfd75f24.chunk.js": "/personalreact/static/js/2.bfd75f24.chunk.js",
+    "static/js/2.bfd75f24.chunk.js.map": "/personalreact/static/js/2.bfd75f24.chunk.js.map",
+    "index.html": "/personalreact/index.html",
+    "precache-manifest.23a87e87b3fb76aea2b217675012792b.js": "/personalreact/precache-manifest.23a87e87b3fb76aea2b217675012792b.js",
+    "service-worker.js": "/personalreact/service-worker.js",
+    "static/css/main.9e9505ce.chunk.css.map": "/personalreact/static/css/main.9e9505ce.chunk.css.map",
+    "static/js/2.bfd75f24.chunk.js.LICENSE.txt": "/personalreact/static/js/2.bfd75f24.chunk.js.LICENSE.txt",
+    "static/media/fog.jpg": "/personalreact/static/media/fog.89d55f66.jpg",
+    "static/media/fog_2.png": "/personalreact/static/media/fog_2.34593bc3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1067ad7.js",
+    "static/js/2.bfd75f24.chunk.js",
+    "static/css/main.9e9505ce.chunk.css",
+    "static/js/main.4c0a1119.chunk.js"
+  ]
+}
