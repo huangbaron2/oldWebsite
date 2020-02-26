@@ -14,6 +14,7 @@ const Styles = styled.div `
     height: 720px;
     position: relative;
     width: 100%;
+    text-align: center;
   }
 
   .intro {
