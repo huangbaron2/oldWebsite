@@ -66,7 +66,8 @@ const Styles = styled.div `
 
         &:hover {
             color: white;
-            background-color: rgba(0,0,0,.7)
+            background-color: rgba(0,0,0,.7)t
+            transform: scale(1.5);
         }
     }
 
