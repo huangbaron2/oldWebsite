@@ -5,6 +5,7 @@ import Fog from './assets/fog.jpg';
 import { NavsBar } from './NavBar'
 import { Home } from './Home'
 import { Resume } from './Resume'
+import { Projects } from './Projects'
 
 const Styles = styled.div`
   .jumbo {
@@ -39,6 +40,7 @@ function App() {
       <div>
         <Home/>
         <Resume/>
+        <Projects/>
       </div>
     </React.Fragment>
     </Styles>

@@ -11,9 +11,11 @@ const Styles = styled.div `
         background: url(${Fog_2}) no-repeat fixed bottom;
         background-size: cover;
         color: #efefef;
-        height: 720px;
+        height: 735px;
         position: relative;
         width: 100%;
+        border: 2x dotted red;
+        margin: 0px;
     }
 
     .container_resume {
@@ -59,7 +61,7 @@ export const Resume = () => (
             <Container className = "container_resume">
             <div className = "overlay_resume">
                     <Container className = "container_resume_body">
-                        <iframe src="https://drive.google.com/file/d/1Qaa7q_jSqV1nouCZrATgl4j3jAp6WYMi/preview" width="550" height="660"></iframe>
+                        <iframe src="https://drive.google.com/file/d/1Qaa7q_jSqV1nouCZrATgl4j3jAp6WYMi/preview" width="560" height="680"></iframe>
                     </Container>
             </div>
             </Container>

@@ -53,7 +53,7 @@ export const NavsBar = () => (
               <ul className = "nav" style={{ listStyleType: "none" }}>
                 <li className = "navli"><a className = "nava" href="#">Home</a></li>
                 <li className = "navli"><a className = "nava" href="#resume">Resume</a></li>
-                <li className = "navli"><a className = "nava" href="#">Projects</a></li>
+                <li className = "navli"><a className = "nava" href="#projects">Projects</a></li>
                 <li className = "navli"><a className = "nava" href="#">Contact</a></li>
               </ul>
             </Container>
