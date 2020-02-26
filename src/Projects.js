@@ -47,7 +47,7 @@ const Styles = styled.div `
             color: black;
             opacity: 40%;
             text: 123;
-            zoom: 125%;
+            transform: scale(1.5);
         }
     }
 
