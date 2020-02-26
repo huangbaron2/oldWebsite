@@ -2,16 +2,16 @@ import React from 'react';
 import './App.css';
 import styled from 'styled-components';
 import { Jumbotron as Jumbo } from 'react-bootstrap';
-import Fog from './assets/fog.jpg';
+import Fog_2 from './assets/fog_2.png'
 
 
 const Styles = styled.div `
 
 .jumbo {
-    background: url(${Fog}) no-repeat fixed bottom;
+    background: url(${Fog_2}) no-repeat fixed bottom;
     background-size: cover;
     color: #efefef;
-    height: 750px;
+    height: 720px;
     position: relative;
     width: 100%;
   }
