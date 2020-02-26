@@ -47,6 +47,7 @@ const Styles = styled.div `
             color: black;
             opacity: 40%;
             text: 123;
+            zoom: 125%;
         }
     }
 
@@ -64,7 +65,6 @@ const Styles = styled.div `
         text-decoration: none;
 
         &:hover {
-            opacity: 1;
             color: white;
             background-color: rgba(0,0,0,.7)
         }
