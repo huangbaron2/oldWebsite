@@ -61,7 +61,7 @@ export const Resume = () => (
             <Container className = "container_resume">
             <div className = "overlay_resume">
                     <Container className = "container_resume_body">
-                        <iframe src="https://drive.google.com/file/d/1Qaa7q_jSqV1nouCZrATgl4j3jAp6WYMi/preview" width="560" height="680"></iframe>
+                        <iframe src="https://drive.google.com/file/d/1XKO_wzpTQefKqNTWqNlKUNHe-B3UZnzH/preview" width="560" height="680"></iframe>
                     </Container>
             </div>
             </Container>

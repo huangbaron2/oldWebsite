@@ -36,6 +36,7 @@ const Styles = styled.div`
         text-decoration: none;
         text-align: center;
         padding: 32px 43px 8px 43px;
+        left: 5px;
 
         &:hover {
             color: black;
@@ -54,7 +55,6 @@ export const NavsBar = () => (
                 <li className = "navli"><a className = "nava" href="#">Home</a></li>
                 <li className = "navli"><a className = "nava" href="#resume">Resume</a></li>
                 <li className = "navli"><a className = "nava" href="#projects">Projects</a></li>
-                <li className = "navli"><a className = "nava" href="#">Contact</a></li>
               </ul>
             </Container>
         </div>              

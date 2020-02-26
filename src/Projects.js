@@ -16,13 +16,14 @@ const Styles = styled.div `
         text-align: center;
     }
     .container-projects {
-        text-align: content;
+        text-align: center;
         position: absolute;
         margin: 50px 200px 50px 200px;
         padding: 25px 350px 0px 350px;
     }
 
     .homeless-box{
+        text-align: center;
         background-color: black;
         opacity: 1;
         color: white;
@@ -60,6 +61,7 @@ const Styles = styled.div `
         position: absolute;
         opacity: 0;
         transition: opacity 0.4s;
+        text-decoration: none;
 
         &:hover {
             opacity: 1;
@@ -90,7 +92,7 @@ export const Projects = () => (
             <div className = "container-projects">
                 <div className = "homeless-box">
                     <img src = {homelessness} className = "homeImg"/>
-                    <p class="homeless-text">Homelessness Data in NYC</p>
+                    <a href = "https://autolab-p2--huangb2.repl.co/" class="homeless-text" target="_blank">Homelessness Data in NYC</a>
                 </div>
                 <div className = "project_2-box">
                     <p>In progress</p>
