@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import styled from 'styled-components';
-import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
+import { Jumbotron as Jumbo, Container, ProgressBar } from 'react-bootstrap';
 import Fog_2 from './assets/fog_2.png';
 
 
@@ -15,11 +15,12 @@ const Styles = styled.div `
         position: relative;
         width: 100%;
         border: 2x dotted red;
-        margin: 0px;
+        margin: -32px 0px 0px 0px;
     }
 
     .container_resume {
-        text-align: center;
+        text-align: right;
+        margin: -31px 0px 0px 750px
     }
 
     .overlay_resume {
@@ -28,31 +29,28 @@ const Styles = styled.div `
         opacity: 100%;
         height: 660px;
         width: 550px;
-        margin: 45px 0px 0px 0px;
-        display: inline-block;
-    }
-
-    .contact {
-        margin: -15px 0px 0px 0px;
-    }
-
-    .topic {
-        margin: -10px 0px 5px 10px;
-        color: black;
-        font-weight: bold;
-        font-size: 1em;
-    }
-
-   .organ {
-      font-size: 1.25em;
-      margin: -7px 0px 0px 10px;
-      font-weight: 700;
     }
 
     .container_resume_body {
-        text-align: left;
+        text-align: right;
     }
-  
+    
+    .skills {
+        color: white;
+        position: absolute;
+        z-index: 1;
+        bottom: 500px;
+        left: 300px;
+        border: 5px solid white;
+        display: inline;
+        padding: 0px 200px 0px 0px;
+    }
+
+    .languages {
+        font-size: 15px;
+        color: white;
+        display: inline;
+    }
 `
 
 export const Resume = () => (

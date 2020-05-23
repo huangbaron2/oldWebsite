@@ -1,5 +1,5 @@
 import React from 'react'
-import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
+import { Jumbotron as Jumbo } from 'react-bootstrap';
 import styled from 'styled-components';
 import Night from './assets/night.jpg'
 import homelessness from './assets/homelessness.png'
@@ -42,32 +42,27 @@ const Styles = styled.div `
         position: absolute;
         top: 50px;
         left: 50px;
-
-        &:hover {
-            color: black;
-            opacity: 40%;
-            text: 123;
-            transform: scale(1.5);
-        }
+        z-index: 0;
     }
 
     
     .homeless-text {
         margin: 0px;
-        padding: 92px 126px 120px 126px;
+        padding: 92px 126px 127px 126px;
         left: 0px;
         top: 0px;
         text-size: 5px;
         z-index: 1;
         position: absolute;
         opacity: 0;
-        transition: opacity 0.4s;
+        transition: opacity 0.3s, color 0.3s, background-color 0.3s, border 0.3s;
         text-decoration: none;
 
         &:hover {
             color: white;
-            background-color: rgba(0,0,0,.7)t
-            transform: scale(1.5);
+            background-color: rgba(0,0,0,.7);
+            opacity: 1;
+            border: 2px solid white;
         }
     }
 
@@ -93,7 +88,7 @@ export const Projects = () => (
             <div className = "container-projects">
                 <div className = "homeless-box">
                     <img src = {homelessness} className = "homeImg"/>
-                    <a href = "https://autolab-p2--huangb2.repl.co/" class="homeless-text" target="_blank">Homelessness Data in NYC</a>
+                    <a href = "https://autolab-p2--huangb2.repl.co/" className="homeless-text" target="_blank" rel="noopener noreferrer">Homelessness Data in NYC</a>
                 </div>
                 <div className = "project_2-box">
                     <p>In progress</p>

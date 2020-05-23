@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import styled from 'styled-components';
 import Fog from './assets/fog.jpg';
 import { NavsBar } from './NavBar'
